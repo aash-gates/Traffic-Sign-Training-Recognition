@@ -2,7 +2,7 @@
 
 This project is a machine learning-based classification model to identify traffic signs. It uses a convolutional neural network (CNN) to classify traffic signs based on images provided by the user. The model is trained using labeled traffic sign images and can predict the class of any new image of a traffic sign.
 
-##Features
+## Features
 
 - Train a CNN model for traffic sign classification.
 - Evaluate the model's accuracy on validation data.
@@ -10,7 +10,7 @@ This project is a machine learning-based classification model to identify traffi
 - Make predictions for new traffic sign images.
 - Display predictions on images with labels.
 
-##Project Setup
+## Project Setup
 
 ## 1. Clone the Repository
 
@@ -46,11 +46,11 @@ myData/
         |-- image2.jpg
     |-- ...
 
-##4. Preprocessing Data
+## 4. Preprocessing Data
 
 In the preprocessing step, images are resized to 64x64 and normalized by dividing the pixel values by 255.0. Labels are encoded using LabelEncoder to convert class names to integers.
 
-##5. Model Architecture
+## 5. Model Architecture
 
 The model is a Convolutional Neural Network (CNN) built using Keras. The architecture includes:
 - Convolutional layers followed by max-pooling layers
