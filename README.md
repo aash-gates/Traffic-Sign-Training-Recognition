@@ -1,4 +1,4 @@
-#Traffic Sign Classification Model
+# Traffic Sign Classification Model
 
 This project is a machine learning-based classification model to identify traffic signs. It uses a convolutional neural network (CNN) to classify traffic signs based on images provided by the user. The model is trained using labeled traffic sign images and can predict the class of any new image of a traffic sign.
 
